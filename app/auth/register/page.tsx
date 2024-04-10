@@ -10,8 +10,8 @@ import {
 const Register = () => {
   return (
     <div>
-      <Text fontSize="xl">Create an account</Text>
       <Link href="/">Home</Link>
+      <Text fontSize="xl">Create an account</Text>
       <FormControl>
         <FormLabel>First name</FormLabel>
         <Input placeholder="First name" />
