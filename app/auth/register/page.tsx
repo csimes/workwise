@@ -1,9 +1,17 @@
-import { Button, Input, FormControl, FormLabel, Text } from "@chakra-ui/react";
+import {
+  Button,
+  Input,
+  FormControl,
+  FormLabel,
+  Text,
+  Link,
+} from "@chakra-ui/react";
 
 const Register = () => {
   return (
     <div>
       <Text fontSize="xl">Create an account</Text>
+      <Link href="/">Home</Link>
       <FormControl>
         <FormLabel>First name</FormLabel>
         <Input placeholder="First name" />
